@@ -1,10 +1,10 @@
 import Homepage from './Components/Homepage';
-import { Container } from 'react-bootstrap';
+
 function App() {
   return (
-    <Container>
+    <div>
       <Homepage />
-    </Container>
+    </div>
   );
 }
 

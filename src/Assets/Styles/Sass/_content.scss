@@ -1,0 +1,66 @@
+$red-color: rgb(240, 65, 65);
+$blue-color: rgb(0, 0, 120);
+
+.content {
+    span {
+        color: $red-color;
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    h2,
+    h3,
+    p {
+        color: $blue-color;
+    }
+
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 4px;
+    }
+
+    h2 + h2 {
+        color: $red-color;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        letter-spacing: 4px;
+    }
+
+    p {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .love-text {
+        span {
+            font-size: 16rem;
+        }
+
+        span + span {
+            position: relative;
+            text-align: end;
+        }
+    }
+
+    .video-row {
+        position: relative;
+        top: -25px;
+        z-index: -1;
+    }
+
+    @media only screen and (max-width: 576px) {
+        .video-row {
+            position: unset;
+            top: unset;
+            z-index: unset;
+        }
+
+        .love-text {
+            span {
+                font-size: 6rem;
+            }
+        }
+    }
+}

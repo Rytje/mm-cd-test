@@ -1,6 +1,89 @@
 @charset "UTF-8";
-.hp {
-  color: red;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+.navigation-bar a {
+  color: gray;
+}
+.navigation-bar .navigation-top a {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+.navigation-bar .navigation-top a:hover {
+  color: black;
+}
+.navigation-bar .navigation-top a:nth-child(2) {
+  padding: 0px 10px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.navigation-bar .navigation-top i {
+  font-size: unset;
+}
+.navigation-bar .navigation-top span {
+  font-size: 0.96rem;
+  font-style: italic;
+}
+.navigation-bar .categories {
+  border-top: 3px solid lightgray;
+  border-bottom: 3px solid lightgray;
+}
+.navigation-bar .categories form {
+  font-size: 0.8rem;
+}
+.navigation-bar .categories button:hover {
+  background-color: lightgray;
+}
+
+.content span {
+  color: #f04141;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.content h2, .content .h2,
+.content h3,
+.content .h3,
+.content p {
+  color: #000078;
+}
+.content h2, .content .h2 {
+  font-size: 2rem;
+  letter-spacing: 4px;
+}
+.content h2 + h2, .content .h2 + h2, .content h2 + .h2, .content .h2 + .h2 {
+  color: #f04141;
+}
+.content h3, .content .h3 {
+  font-size: 1.4rem;
+  letter-spacing: 4px;
+}
+.content p {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.content .love-text span {
+  font-size: 16rem;
+}
+.content .love-text span + span {
+  position: relative;
+  text-align: end;
+}
+.content .video-row {
+  position: relative;
+  top: -25px;
+  z-index: -1;
+}
+@media only screen and (max-width: 576px) {
+  .content .video-row {
+    position: unset;
+    top: unset;
+    z-index: unset;
+  }
+  .content .love-text span {
+    font-size: 6rem;
+  }
 }
 
 /*!

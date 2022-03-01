@@ -1,3 +1,51 @@
-.hp {
-    color: red;
+.navigation-bar {
+    $font-size: 0.8rem;
+
+    a{
+        // font-size: $font-size;
+        color: gray;
+    }
+
+    .navigation-top {
+        a {
+            display: inline-block;
+            font-size: $font-size;
+            color: gray;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0px 10px;
+
+            &:hover{
+                color: black;
+            }
+        }
+
+        a:nth-child(2) {
+            padding: 0px 10px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+        }
+
+        i {
+            font-size: unset;
+        }
+
+        span {
+            font-size: $font-size * 1.2;
+            font-style: italic;
+        }
+    }
+
+    .categories {
+        border-top: 3px solid lightgray;
+        border-bottom: 3px solid lightgray;
+
+        form{
+            font-size: $font-size;
+        }
+
+        button:hover {
+            background-color: lightgray;
+        }
+    }
 }
