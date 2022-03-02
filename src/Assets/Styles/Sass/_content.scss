@@ -2,6 +2,7 @@ $red-color: rgb(240, 65, 65);
 $blue-color: rgb(0, 0, 120);
 
 .content {
+
     span {
         color: $red-color;
         font-size: 1.6rem;
@@ -34,6 +35,9 @@ $blue-color: rgb(0, 0, 120);
     }
 
     .love-text {
+        top: 50%;
+        left: 15%;
+        
         span {
             font-size: 16rem;
         }
@@ -44,10 +48,83 @@ $blue-color: rgb(0, 0, 120);
         }
     }
 
+    .promotion-image {
+        position: relative;
+        z-index: 2;
+    }
+
     .video-row {
         position: relative;
         top: -25px;
-        z-index: -1;
+        z-index: 1;
+    }
+
+    @media only screen and (max-width: 1400px) {
+        .video-row {
+            position: unset;
+            top: unset;
+            z-index: unset;
+        }
+
+        .love-text {
+            top: 42.5%;
+            left: 15%;
+
+            span {
+                font-size: 12rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .video-row {
+            position: unset;
+            top: unset;
+            z-index: unset;
+        }
+
+        .love-text {
+            top: 42.5%;
+            left: 50%;
+
+            span {
+                font-size: 8rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .video-row {
+            position: unset;
+            top: unset;
+            z-index: unset;
+        }
+
+        .love-text {
+            top: 42.5%;
+            left: 50%;
+
+            span {
+                font-size: 6rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .video-row {
+            position: unset;
+            top: unset;
+            z-index: unset;
+        }
+
+        .love-text {
+            top: 25%;
+            left: 50%;
+
+            span {
+                font-size: 6rem;
+            }
+        }
     }
 
     @media only screen and (max-width: 576px) {
@@ -58,9 +135,13 @@ $blue-color: rgb(0, 0, 120);
         }
 
         .love-text {
+            top: 50%;
+            left: 50%;
+
             span {
                 font-size: 6rem;
             }
         }
     }
+
 }

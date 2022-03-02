@@ -63,6 +63,10 @@
   font-size: 0.8rem;
   font-weight: bold;
 }
+.content .love-text {
+  top: 50%;
+  left: 15%;
+}
 .content .love-text span {
   font-size: 16rem;
 }
@@ -70,16 +74,80 @@
   position: relative;
   text-align: end;
 }
+.content .promotion-image {
+  position: relative;
+  z-index: 2;
+}
 .content .video-row {
   position: relative;
   top: -25px;
-  z-index: -1;
+  z-index: 1;
+}
+@media only screen and (max-width: 1400px) {
+  .content .video-row {
+    position: unset;
+    top: unset;
+    z-index: unset;
+  }
+  .content .love-text {
+    top: 42.5%;
+    left: 15%;
+  }
+  .content .love-text span {
+    font-size: 12rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .content .video-row {
+    position: unset;
+    top: unset;
+    z-index: unset;
+  }
+  .content .love-text {
+    top: 42.5%;
+    left: 50%;
+  }
+  .content .love-text span {
+    font-size: 8rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .content .video-row {
+    position: unset;
+    top: unset;
+    z-index: unset;
+  }
+  .content .love-text {
+    top: 42.5%;
+    left: 50%;
+  }
+  .content .love-text span {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content .video-row {
+    position: unset;
+    top: unset;
+    z-index: unset;
+  }
+  .content .love-text {
+    top: 25%;
+    left: 50%;
+  }
+  .content .love-text span {
+    font-size: 6rem;
+  }
 }
 @media only screen and (max-width: 576px) {
   .content .video-row {
     position: unset;
     top: unset;
     z-index: unset;
+  }
+  .content .love-text {
+    top: 50%;
+    left: 50%;
   }
   .content .love-text span {
     font-size: 6rem;

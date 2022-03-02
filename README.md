@@ -1,3 +1,17 @@
+## Run `npm install`
+To install depencencies
+
+## Run `npm style`
+To generate the css
+
+## Run `npm start`
+To launch the project on localhost
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
