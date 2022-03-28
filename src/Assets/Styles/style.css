@@ -37,6 +37,11 @@
   background-color: lightgray;
 }
 
+@font-face {
+  font-family: "heroic";
+  src: local("heroic"), url("../Fonts/heroiccondensed-medium-webfont.woff") format("woff");
+  font-weight: bold;
+}
 .content span {
   color: #f04141;
   font-size: 1.6rem;
@@ -47,6 +52,7 @@
 .content .h3,
 .content p {
   color: #000078;
+  font-family: "heroic";
 }
 .content h2, .content .h2 {
   font-size: 2rem;

@@ -1,5 +1,11 @@
 $red-color: rgb(240, 65, 65);
 $blue-color: rgb(0, 0, 120);
+@font-face {
+    font-family: "heroic";
+    src: local("heroic"),
+     url("../Fonts/heroiccondensed-medium-webfont.woff") format("woff");
+    font-weight: bold;
+    }
 
 .content {
 
@@ -13,6 +19,7 @@ $blue-color: rgb(0, 0, 120);
     h3,
     p {
         color: $blue-color;
+        font-family: "heroic";
     }
 
     h2 {

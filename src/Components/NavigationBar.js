@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Button, Row, Col, Form } from 'react-bootstrap';
-import logo from '../Assets/Images/logo.png';
+import logo from '../Assets/Images/logo-crop.png';
 
 export default function NavigationBar() {
   return (
@@ -25,7 +25,7 @@ export default function NavigationBar() {
 
       <Row className='categories'>
         <Col xs={1} className='d-none d-sm-block order-1'></Col>
-        <Col xs={6} sm={true} className='order-1 text-start px-0'>
+        <Col xs={6} sm={true} className='order-1 text-start px-0 align-self-center'>
           <img src={logo} alt="Tommy Hilfiger logo" className='img-fluid' />
         </Col>
         <Col className='order-3 d-flex align-items-center'>
